@@ -1,0 +1,25 @@
+Program wykrywajcy ukryte procesy w systemie GNU/Linux
+Wersja jadra 4.8
+Python 3.5
+
+Uruchomonie programu:
+- kompilacja ladowalnego modulu w glownym katalogu progrmamu za pomoc komendy "make"
+- uruchomienie programu za pomoca komendy "sudo python3 ./main.py"
+wymagane uprawnienia administratora do wykonania testu numer 6
+
+Uruchomienie programu bez żadnych parametrow spowoduje uruchomienie menu wyboru testu
+
+uruchomienie programu z paremetrem -h pozwoli podejrzec dostepne paremetry do wykonania testow
+
+-a,Porownanie zawartosci katalogu /proc z wynikiem programu ps
+-b,Porownanie informacji zebranych z programu ps z informacjami z procfs
+-c,Sprawdzenie wyniku programu ps poprzez tworzenie nowych procesow
+-d,Mechanizm wykrywający procesy z wykorzystaniem wywołań systemowych
+-e,Mechanizm wykrywający procesy za pomocą pełnego zajęcia przestrzeni numerów pid
+-f,Sprawdzenie podmiany wywolan systemowych poprzez uruchomienie ladowalnego modulu- wymagene uruchomienie przez administratora
+
+
+
+
+
+
